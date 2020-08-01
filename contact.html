@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Amanda-Contact</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -14,53 +14,31 @@
   </head>
   <body>
     <ul class="nav nav-tabs">
-      <li role="presentation" class="active"><a href="index.html">Home</a></li>
-      <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+      <li role="presentation"><a href="index.html">Home</a></li>
       <li role="presentation"><a href="aboutme.html">About Me</a></li>
-      <li role="presentation"><a href="contact.html">Contact</a></li>
+      <li role="presentation" class="active">
+        <a href="contact.html">Contact</a>
+      </li>
     </ul>
-    <h2 class="h2">Contact Me</h2>
-    <div class="input-group">
-      <span class="input-group-addon" id="basic-addon1">@</span>
-      <input
-        type="text"
-        class="form-control"
-        placeholder="Username"
-        aria-describedby="basic-addon1"
-      />
-    </div>
-
-    <div class="input-group">
-      <input
-        type="text"
-        class="form-control"
-        placeholder="Recipient's username"
-        aria-describedby="basic-addon2"
-      />
-      <span class="input-group-addon" id="basic-addon2">.com</span>
-    </div>
-
-    <div class="input-group">
-      <span class="input-group-addon">$</span>
-      <input
-        type="text"
-        class="form-control"
-        aria-label="Amount (to the nearest dollar)"
-      />
-      <span class="input-group-addon">.00</span>
-    </div>
-
-    <label for="basic-url">Your vanity URL</label>
-    <div class="input-group">
-      <span class="input-group-addon" id="basic-addon3"
-        >https://example.com/users/</span
-      >
-      <input
-        type="text"
-        class="form-control"
-        id="basic-url"
-        aria-describedby="basic-addon3"
-      />
-    </div>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email Address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Full Name and Message</label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+        <button>Submit</button>
+      </div>
+    </form>
   </body>
 </html>
