@@ -4,3 +4,8 @@
 .h2 {
   text-align: center;
 }
+#projectHeader {
+  text-align: center;
+  font-weight: large;
+  text-decoration-line: underline;
+}
